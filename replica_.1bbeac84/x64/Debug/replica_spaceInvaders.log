@@ -1,7 +1,6 @@
-﻿  Spaceship.cpp
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Spaceship.cpp(6,47): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Spaceship.cpp(7,33): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Spaceship.cpp(32,33): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+﻿  Game.cpp
+  Main.cpp
+  Gerando Código...
   replica_spaceInvaders.vcxproj -> C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\x64\Debug\replica_spaceInvaders.exe
   'pwsh.exe' não é reconhecido como um comando interno
   ou externo, um programa operável ou um arquivo em lotes.

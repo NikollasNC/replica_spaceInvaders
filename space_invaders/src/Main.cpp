@@ -15,6 +15,7 @@ int main() {
 	while (WindowShouldClose() == false)
 	{
 		game.handleInput();
+		game.update();
 
 		BeginDrawing();
 		ClearBackground(grey);

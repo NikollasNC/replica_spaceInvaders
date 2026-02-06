@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="replica_spaceInvaders.vcxproj" />
+  <Project Path="replica_spaceInvaders.vcxproj" Id="1bbeac84-a87f-4340-9217-b55fc4d4ed43" />
 </Solution>
