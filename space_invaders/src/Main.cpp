@@ -1,4 +1,5 @@
 #include <raylib.h>
+#include "Game.h"
 
 int main() {
 	Color grey = { 29,29,27, 255 };
@@ -9,10 +10,15 @@ int main() {
 
 	SetTargetFPS(60);
 
+	Game game;
+
 	while (WindowShouldClose() == false)
 	{
+		game.handleInput();
+
 		BeginDrawing();
 		ClearBackground(grey);
+		game.draw();
 
 		EndDrawing();
 	}

@@ -105,6 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>"C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\include";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +128,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="space_invaders\src\Game.cpp" />
     <ClCompile Include="space_invaders\src\Main.cpp" />
+    <ClCompile Include="space_invaders\src\Spaceship.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="space_invaders\include\Game.h" />
+    <ClInclude Include="space_invaders\include\Spaceship.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="space_invaders\assets\sprites\spaceship.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
