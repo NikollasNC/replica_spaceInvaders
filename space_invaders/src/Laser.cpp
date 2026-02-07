@@ -1,5 +1,4 @@
 #include "Laser.h"
-#include <iostream>
 
 Laser::Laser(Vector2 position, int speed)
 {
@@ -14,7 +13,6 @@ void Laser::update()
 	if (active) {
 		if (position.y > GetScreenHeight() || position.y < 0) {
 			active = false;
-			std::cout << "Laser inactive" << std::endl;
 		}
 	}
 }

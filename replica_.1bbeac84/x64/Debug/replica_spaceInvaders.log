@@ -1,5 +1,8 @@
 ﻿  Game.cpp
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(60,20): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(61,12): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
   Main.cpp
+  Obstacle.cpp
   Gerando Código...
   replica_spaceInvaders.vcxproj -> C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\x64\Debug\replica_spaceInvaders.exe
   'pwsh.exe' não é reconhecido como um comando interno
