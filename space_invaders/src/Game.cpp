@@ -6,6 +6,8 @@ Game::Game()
 	aliens = createAliens();
 	aliensDirection = 1;
 	timeLastAlienFireed = 0;
+	timeLastSpawn = 0.0;
+	mysterShipSpawnInterval = GetRandomValue(10, 20);
 }
 
 Game::~Game()
@@ -14,6 +16,14 @@ Game::~Game()
 }
 
 void Game::update() {
+
+	double currentTime = GetTime();
+	if (currentTime - timeLastSpawn > mysterShipSpawnInterval) {
+		mysteryShip.spawn();
+		timeLastSpawn = GetTime();
+		mysterShipSpawnInterval = GetRandomValue(10, 20);
+	}
+
 	for (auto& laser: spaceShip.lasers) {
 		laser.update();
 	}
@@ -27,6 +37,7 @@ void Game::update() {
 	}
 
 	deleteInactiveLasers();
+	mysteryShip.update();
 }
 
 void Game::draw()
@@ -48,6 +59,8 @@ void Game::draw()
 	for (auto& laser : alienLasers) {
 		laser.draw();
 	}
+
+	mysteryShip.draw();
 }
 
 void Game::handleInput()

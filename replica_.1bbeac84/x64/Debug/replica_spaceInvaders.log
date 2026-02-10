@@ -1,15 +1,18 @@
 ﻿  Game.cpp
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\include\Game.h(25,52): warning C4305: 'inicializando': truncamento de 'double' para 'const float'
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\include\Game.h(26,52): warning C4305: 'inicializando': truncamento de 'double' para 'const float'
   (compiling source file 'space_invaders/src/Game.cpp')
   
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(80,20): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(81,12): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(107,12): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(108,12): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(142,53): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(146,32): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(10,42): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(23,26): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(24,43): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(102,20): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(103,12): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(129,12): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(130,12): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(164,53): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\src\Game.cpp(168,32): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
   Main.cpp
-C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\include\Game.h(25,52): warning C4305: 'inicializando': truncamento de 'double' para 'const float'
+C:\Users\nikol\OneDrive\Documents\Dev\WS-VisualStudio\replica_spaceInvaders\space_invaders\include\Game.h(26,52): warning C4305: 'inicializando': truncamento de 'double' para 'const float'
   (compiling source file 'space_invaders/src/Main.cpp')
   
   Gerando Código...

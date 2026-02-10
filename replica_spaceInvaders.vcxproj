@@ -133,6 +133,7 @@
     <ClCompile Include="space_invaders\src\Game.cpp" />
     <ClCompile Include="space_invaders\src\Laser.cpp" />
     <ClCompile Include="space_invaders\src\Main.cpp" />
+    <ClCompile Include="space_invaders\src\MysteryShip.cpp" />
     <ClCompile Include="space_invaders\src\Obstacle.cpp" />
     <ClCompile Include="space_invaders\src\Spaceship.cpp" />
   </ItemGroup>
@@ -141,6 +142,7 @@
     <ClInclude Include="space_invaders\include\Block.h" />
     <ClInclude Include="space_invaders\include\Game.h" />
     <ClInclude Include="space_invaders\include\Laser.h" />
+    <ClInclude Include="space_invaders\include\MysteryShip.h" />
     <ClInclude Include="space_invaders\include\Obstacle.h" />
     <ClInclude Include="space_invaders\include\Spaceship.h" />
   </ItemGroup>
