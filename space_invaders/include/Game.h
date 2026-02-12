@@ -18,6 +18,7 @@ private:
 	void moveAliens();
 	void moveDownAliens(int distance);
 	void alienShootLaser();
+	void checkForCollisions();
 	Spaceship spaceShip;
 	std::vector<Obstacle> obstacles;
 	std::vector<Alien> aliens;
